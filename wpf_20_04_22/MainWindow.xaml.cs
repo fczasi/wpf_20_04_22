@@ -30,5 +30,45 @@ namespace wpf_20_04_22
         {
             thecactusrec.Visibility = Visibility.Hidden;
         }
+        private void bestcactuscheck_checked(object sender, RoutedEventArgs e)
+        {
+            bestcactusrec.Visibility = Visibility.Visible;
+        }
+        private void bestcactuscheck_unchecked(object sender, RoutedEventArgs e)
+        {
+            bestcactusrec.Visibility = Visibility.Hidden;
+        }
+        private void cactusescheck_checked(object sender, RoutedEventArgs e)
+        {
+            cactusesrec.Visibility = Visibility.Visible;
+        }
+        private void cactusescheck_unchecked(object sender, RoutedEventArgs e)
+        {
+            cactusesrec.Visibility = Visibility.Hidden;
+        }
+        private void thecactuscheck_checked(object sender, RoutedEventArgs e)
+        {
+            thecactusrec.Visibility = Visibility.Visible;
+        }
+        private void thecactuscheck_unchecked(object sender, RoutedEventArgs e)
+        {
+            thecactusrec.Visibility = Visibility.Hidden;
+        }
+        private void thecactuscheck_checked(object sender, RoutedEventArgs e)
+        {
+            thecactusrec.Visibility = Visibility.Visible;
+        }
+        private void thecactuscheck_unchecked(object sender, RoutedEventArgs e)
+        {
+            thecactusrec.Visibility = Visibility.Hidden;
+        }
+        private void thecactuscheck_checked(object sender, RoutedEventArgs e)
+        {
+            thecactusrec.Visibility = Visibility.Visible;
+        }
+        private void thecactuscheck_unchecked(object sender, RoutedEventArgs e)
+        {
+            thecactusrec.Visibility = Visibility.Hidden;
+        }
     }
 }

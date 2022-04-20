@@ -9,7 +9,7 @@
     <Grid Width="350" Height="300">
         <ListBox Margin="-222,-10,222,10">
         <ListBoxItem Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
-                <CheckBox Name="thecactuscheck">
+                <CheckBox Name="thecactuscheck" Checked="thecactuscheck_checked" Unchecked="thecactuscheck_unchecked">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\thecactus.jpg" Height="30"></Image>
                     <TextBlock Text="Sztuczny kaktus"></TextBlock>
@@ -57,22 +57,22 @@
             </CheckBox>
         </ListBoxItem>
         </ListBox>
-        <Rectangle Height="100" Stroke="LightCoral" StrokeThickness="5" Width="100" Margin="240,-56,10,256" Visibility="Collapsed" Name="thecactusrec" >
+        <Rectangle Height="100" Stroke="LightCoral" StrokeThickness="5" Width="100" Margin="240,-56,10,256" Visibility="Hidden" Name="thecactusrec" >
             
         </Rectangle>
-        <Rectangle Height="100" Stroke="LightGray" StrokeThickness="5" Width="100" Margin="450,-56,-200,256">
+        <Rectangle Height="100" Stroke="LightGray" StrokeThickness="5" Width="100" Margin="450,-56,-200,256" Visibility="Hidden" Name="bestcactusrec">
             
         </Rectangle>
-        <Rectangle Height="100" Stroke="GreenYellow" StrokeThickness="5" Width="100" Margin="240,74,10,126">
+        <Rectangle Height="100" Stroke="GreenYellow" StrokeThickness="5" Width="100" Margin="240,74,10,126" Visibility="Hidden" Name="cactusesrec">
 
         </Rectangle>
-        <Rectangle Height="100" Stroke="LightGreen" StrokeThickness="5" Width="100" Margin="450,74,-200,126">
+        <Rectangle Height="100" Stroke="LightGreen" StrokeThickness="5" Width="100" Margin="450,74,-200,126" Visibility="Hidden" Name="icecreamrec">
 
         </Rectangle>
-        <Rectangle Height="100" Stroke="LightBlue" StrokeThickness="5" Width="100" Margin="240,217,10,-17">
+        <Rectangle Height="100" Stroke="LightBlue" StrokeThickness="5" Width="100" Margin="240,217,10,-17" Visibility="Hidden" Name="stockcactusrec">
 
         </Rectangle>
-        <Rectangle Height="100" Stroke="LightSlateGray" StrokeThickness="5" Width="100" Margin="450,217,-200,-17">
+        <Rectangle Height="100" Stroke="LightSlateGray" StrokeThickness="5" Width="100" Margin="450,217,-200,-17" Visibility="Hidden" Name="paintingcactusrec">
 
         </Rectangle>
     </Grid>
