@@ -15,14 +15,20 @@ using System.Windows.Shapes;
 
 namespace wpf_20_04_22
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void thecactuscheck_checked(object sender, RoutedEventArgs e) 
+        {
+            thecactusrec.Visibility = Visibility.Visible;
+        }
+        private void thecactuscheck_unchecked(object sender, RoutedEventArgs e)
+        {
+            thecactusrec.Visibility = Visibility.Hidden;
         }
     }
 }

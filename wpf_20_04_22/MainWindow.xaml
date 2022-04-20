@@ -6,56 +6,74 @@
         xmlns:local="clr-namespace:wpf_20_04_22"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Width="350">
-        <ListBox>
-        <ListBoxItem Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="30">
-            <CheckBox Name="CoffieCheckBox">
+    <Grid Width="350" Height="300">
+        <ListBox Margin="-222,-10,222,10">
+        <ListBoxItem Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
+                <CheckBox Name="thecactuscheck">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\thecactus.jpg" Height="30"></Image>
-                    <TextBlock Text="Coffie"></TextBlock>
+                    <TextBlock Text="Sztuczny kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
         </ListBoxItem>
-        <ListBoxItem Background="LightGray" Foreground="Black" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="30">
-            <CheckBox Name="TeaCheckBox">
+        <ListBoxItem Background="LightGray" Foreground="Black" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
+                <CheckBox Name="bestcactuscheck">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\bestcactus.jpg" Height="30"></Image>
-                    <TextBlock Text="Tea"></TextBlock>
+                    <TextBlock Text="Tańczoncy kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
         </ListBoxItem>
-        <ListBoxItem Background="LightBlue" Foreground="Purple" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="30">
-            <CheckBox Name="OrangeJuiceCheckBox">
+        <ListBoxItem Background="GreenYellow" Foreground="Purple" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
+                <CheckBox Name="cactusescheck">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\cactuses.jpg" Height="40"></Image>
-                    <TextBlock Text="OrangeJuice"></TextBlock>
+                    <TextBlock Text="Kaktusy"></TextBlock>
                 </StackPanel>
             </CheckBox>
         </ListBoxItem>
-        <ListBoxItem Background="LightGreen" Foreground="Green" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="30">
-            <CheckBox Name="MilkCheckBox">
+        <ListBoxItem Background="LightGreen" Foreground="Green" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
+                <CheckBox Name="icecreamcheck">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\icecream.jpg" Height="30"></Image>
-                    <TextBlock Text="Milk"></TextBlock>
+                    <TextBlock Text="Lodowy kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
         </ListBoxItem>
-        <ListBoxItem Background="LightBlue" Foreground="Blue" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="30">
-            <CheckBox Name="IcedTeaCheckBox">
+        <ListBoxItem Background="LightBlue" Foreground="Blue" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
+                <CheckBox Name="stockcactuscheck">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\stockcactus.jpg" Height="30"></Image>
-                    <TextBlock Text="Iced Tea"></TextBlock>
+                    <TextBlock Text="Normalny kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
         </ListBoxItem>
-        <ListBoxItem Background="LightSlateGray" Foreground="Orange" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="30">
-            <CheckBox Name="MangoShakeCheckBox">
+        <ListBoxItem Background="LightSlateGray" Foreground="Orange" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
+                <CheckBox Name="paintingcactuscheck">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\paintingcactus.jpg" Height="30"></Image>
-                    <TextBlock Text="Mango Shake"></TextBlock>
+                    <TextBlock Text="Malowany kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
         </ListBoxItem>
         </ListBox>
+        <Rectangle Height="100" Stroke="LightCoral" StrokeThickness="5" Width="100" Margin="240,-56,10,256" Visibility="Collapsed" Name="thecactusrec" >
+            
+        </Rectangle>
+        <Rectangle Height="100" Stroke="LightGray" StrokeThickness="5" Width="100" Margin="450,-56,-200,256">
+            
+        </Rectangle>
+        <Rectangle Height="100" Stroke="GreenYellow" StrokeThickness="5" Width="100" Margin="240,74,10,126">
+
+        </Rectangle>
+        <Rectangle Height="100" Stroke="LightGreen" StrokeThickness="5" Width="100" Margin="450,74,-200,126">
+
+        </Rectangle>
+        <Rectangle Height="100" Stroke="LightBlue" StrokeThickness="5" Width="100" Margin="240,217,10,-17">
+
+        </Rectangle>
+        <Rectangle Height="100" Stroke="LightSlateGray" StrokeThickness="5" Width="100" Margin="450,217,-200,-17">
+
+        </Rectangle>
     </Grid>
 </Window>
