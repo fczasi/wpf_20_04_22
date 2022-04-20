@@ -75,5 +75,6 @@
         <Rectangle Height="100" Stroke="LightSlateGray" StrokeThickness="5" Width="100" Margin="450,217,-200,-17" Visibility="Hidden" Name="paintingcactusrec">
 
         </Rectangle>
+        <ProgressBar Minimum="0" Maximum="6" Margin="-197,312,270,-48" Name="cactusprogress"/>
     </Grid>
 </Window>

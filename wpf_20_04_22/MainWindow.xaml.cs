@@ -25,6 +25,7 @@ namespace wpf_20_04_22
         private void thecactuscheck_checked(object sender, RoutedEventArgs e) 
         {
             thecactusrec.Visibility = Visibility.Visible;
+            cactusprogress.Value++;
         }
         private void thecactuscheck_unchecked(object sender, RoutedEventArgs e)
         {
