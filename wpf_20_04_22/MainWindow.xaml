@@ -17,7 +17,7 @@
             </CheckBox>
         </ListBoxItem>
         <ListBoxItem Background="LightGray" Foreground="Black" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
-                <CheckBox Name="bestcactuscheck">
+                <CheckBox Name="bestcactuscheck" Checked="bestcactuscheck_checked" Unchecked="bestcactuscheck_unchecked">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\bestcactus.jpg" Height="30"></Image>
                     <TextBlock Text="Tańczoncy kaktus"></TextBlock>
@@ -25,7 +25,7 @@
             </CheckBox>
         </ListBoxItem>
         <ListBoxItem Background="GreenYellow" Foreground="Purple" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
-                <CheckBox Name="cactusescheck">
+                <CheckBox Name="cactusescheck" Checked="cactusescheck_checked" Unchecked="cactusescheck_unchecked">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\cactuses.jpg" Height="40"></Image>
                     <TextBlock Text="Kaktusy"></TextBlock>
@@ -33,7 +33,7 @@
             </CheckBox>
         </ListBoxItem>
         <ListBoxItem Background="LightGreen" Foreground="Green" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
-                <CheckBox Name="icecreamcheck">
+                <CheckBox Name="icecreamcheck" Checked="icecreamcheck_checked" Unchecked="icecreamcheck_unchecked">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\icecream.jpg" Height="30"></Image>
                     <TextBlock Text="Lodowy kaktus"></TextBlock>
@@ -41,7 +41,7 @@
             </CheckBox>
         </ListBoxItem>
         <ListBoxItem Background="LightBlue" Foreground="Blue" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
-                <CheckBox Name="stockcactuscheck">
+                <CheckBox Name="stockcactuscheck" Checked="stockcactuscheck_checked" Unchecked="stockcactuscheck_unchecked">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\stockcactus.jpg" Height="30"></Image>
                     <TextBlock Text="Normalny kaktus"></TextBlock>
@@ -49,7 +49,7 @@
             </CheckBox>
         </ListBoxItem>
         <ListBoxItem Background="LightSlateGray" Foreground="Orange" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
-                <CheckBox Name="paintingcactuscheck">
+                <CheckBox Name="paintingcactuscheck" Checked="paintingcactuscheck_checked" Unchecked="paintingcactuscheck_unchecked">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="C:\Users\Administrator\Desktop\cactus\paintingcactus.jpg" Height="30"></Image>
                     <TextBlock Text="Malowany kaktus"></TextBlock>
