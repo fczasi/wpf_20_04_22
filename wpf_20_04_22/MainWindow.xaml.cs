@@ -29,47 +29,58 @@ namespace wpf_20_04_22
         }
         private void thecactuscheck_unchecked(object sender, RoutedEventArgs e)
         {
-            thecactusrec.Visibility = Visibility.Hidden;
+            thecactusrec.Visibility = Visibility.Hidden; 
+            cactusprogress.Value--;
         }
         private void bestcactuscheck_checked(object sender, RoutedEventArgs e)
         {
             bestcactusrec.Visibility = Visibility.Visible;
+            cactusprogress.Value++;
         }
         private void bestcactuscheck_unchecked(object sender, RoutedEventArgs e)
         {
             bestcactusrec.Visibility = Visibility.Hidden;
+            cactusprogress.Value--;
         }
         private void cactusescheck_checked(object sender, RoutedEventArgs e)
         {
             cactusesrec.Visibility = Visibility.Visible;
+            cactusprogress.Value++;
         }
         private void cactusescheck_unchecked(object sender, RoutedEventArgs e)
         {
             cactusesrec.Visibility = Visibility.Hidden;
+            cactusprogress.Value--;
         }
         private void icecreamcheck_checked(object sender, RoutedEventArgs e)
         {
             icecreamrec.Visibility = Visibility.Visible;
+            cactusprogress.Value++;
         }
         private void icecreamcheck_unchecked(object sender, RoutedEventArgs e)
         {
             icecreamrec.Visibility = Visibility.Hidden;
+            cactusprogress.Value--;
         }
         private void stockcactuscheck_checked(object sender, RoutedEventArgs e)
         {
             stockcactusrec.Visibility = Visibility.Visible;
+            cactusprogress.Value++;
         }
         private void stockcactuscheck_unchecked(object sender, RoutedEventArgs e)
         {
             stockcactusrec.Visibility = Visibility.Hidden;
+            cactusprogress.Value--;
         }
         private void paintingcactuscheck_checked(object sender, RoutedEventArgs e)
         {
             paintingcactusrec.Visibility = Visibility.Visible;
+            cactusprogress.Value++;
         }
         private void paintingcactuscheck_unchecked(object sender, RoutedEventArgs e)
         {
             paintingcactusrec.Visibility = Visibility.Hidden;
+            cactusprogress.Value--;
         }
     }
 }
