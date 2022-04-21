@@ -11,7 +11,7 @@
         <ListBoxItem Background="LightCoral" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
                 <CheckBox Name="thecactuscheck" Checked="thecactuscheck_checked" Unchecked="thecactuscheck_unchecked">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="C:\Users\Administrator\Desktop\cactus\thecactus.jpg" Height="30"></Image>
+                        <Image Source="C:\Users\Administrator\Desktop\cactus\thecactus.jpg" Height="30"></Image>
                     <TextBlock Text="Sztuczny kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
@@ -19,7 +19,7 @@
         <ListBoxItem Background="LightGray" Foreground="Black" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
                 <CheckBox Name="bestcactuscheck" Checked="bestcactuscheck_checked" Unchecked="bestcactuscheck_unchecked">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="C:\Users\Administrator\Desktop\cactus\bestcactus.jpg" Height="30"></Image>
+                        <Image Source="C:\Users\Administrator\Desktop\cactus\dancingcactus.jpg" Height="30"></Image>
                     <TextBlock Text="Tańczoncy kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
@@ -27,7 +27,7 @@
         <ListBoxItem Background="GreenYellow" Foreground="Purple" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
                 <CheckBox Name="cactusescheck" Checked="cactusescheck_checked" Unchecked="cactusescheck_unchecked">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="C:\Users\Administrator\Desktop\cactus\cactuses.jpg" Height="40"></Image>
+                        <Image Source="C:\Users\Administrator\Desktop\cactus\cactuses.jpg" Height="40"></Image>
                     <TextBlock Text="Kaktusy"></TextBlock>
                 </StackPanel>
             </CheckBox>
@@ -35,7 +35,7 @@
         <ListBoxItem Background="LightGreen" Foreground="Green" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
                 <CheckBox Name="icecreamcheck" Checked="icecreamcheck_checked" Unchecked="icecreamcheck_unchecked">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="C:\Users\Administrator\Desktop\cactus\icecream.jpg" Height="30"></Image>
+                        <Image Source="C:\Users\Administrator\Desktop\cactus\icecream.jpg" Height="30"></Image>
                     <TextBlock Text="Lodowy kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
@@ -43,7 +43,7 @@
         <ListBoxItem Background="LightBlue" Foreground="Blue" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="40">
                 <CheckBox Name="stockcactuscheck" Checked="stockcactuscheck_checked" Unchecked="stockcactuscheck_unchecked">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="C:\Users\Administrator\Desktop\cactus\stockcactus.jpg" Height="30"></Image>
+                        <Image Source="C:\Users\Administrator\Desktop\cactus\carcactus.jpg" Height="30"></Image>
                     <TextBlock Text="Normalny kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
@@ -51,30 +51,38 @@
         <ListBoxItem Background="LightSlateGray" Foreground="Orange" FontFamily="Georgia" FontSize="14" FontWeight="Bold" Height="40">
                 <CheckBox Name="paintingcactuscheck" Checked="paintingcactuscheck_checked" Unchecked="paintingcactuscheck_unchecked">
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="C:\Users\Administrator\Desktop\cactus\paintingcactus.jpg" Height="30"></Image>
+                        <Image Source="C:\Users\Administrator\Desktop\cactus\paintingcactus.png" Height="30"></Image>
                     <TextBlock Text="Malowany kaktus"></TextBlock>
                 </StackPanel>
             </CheckBox>
         </ListBoxItem>
         </ListBox>
-        <Rectangle Height="100" Stroke="LightCoral" StrokeThickness="5" Width="100" Margin="240,-56,10,256" Visibility="Hidden" Name="thecactusrec" >
-            
+        <Slider Name="thecactussli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="LightCoral" Maximum="10" Minimum="0" Margin="325,-46,10,266">
+        </Slider>
+        <Slider Name="paintingcactusli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="LightCoral" Maximum="10" Minimum="0" Margin="325,-46,10,266">
+        </Slider>
+        <Slider Name="bestcactusli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="LightGray" Maximum="10" Minimum="0" Margin="325,-46,10,266">
+        </Slider>
+        <Slider Name="cactusesli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="LightCoral" Maximum="10" Minimum="0" Margin="325,-46,10,266">
+        </Slider>
+        <Slider Name="icecreamli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="LightCoral" Maximum="10" Minimum="0" Margin="325,-46,10,266">
+        </Slider>
+        <Slider Name="stockcactusli" Visibility="Visible" Width="15" Height="80" Orientation="Vertical" Background="LightCoral" Maximum="10" Minimum="0" Margin="325,-46,10,266">
+        </Slider>
+        
+        <Rectangle Height="100" Stroke="LightCoral" StrokeThickness="5" Width="100" Margin="240,-56,10,256" Visibility="Visible" Name="thecactusrec" >
         </Rectangle>
-        <Rectangle Height="100" Stroke="LightGray" StrokeThickness="5" Width="100" Margin="450,-56,-200,256" Visibility="Hidden" Name="bestcactusrec">
-            
+        <Rectangle Height="100" Stroke="LightGray" StrokeThickness="5" Width="100" Margin="450,-56,-200,256" Visibility="Visible" Name="bestcactusrec">
         </Rectangle>
-        <Rectangle Height="100" Stroke="GreenYellow" StrokeThickness="5" Width="100" Margin="240,74,10,126" Visibility="Hidden" Name="cactusesrec">
-
+        <Rectangle Height="100" Stroke="GreenYellow" StrokeThickness="5" Width="100" Margin="240,74,10,126" Visibility="Visible" Name="cactusesrec">
         </Rectangle>
-        <Rectangle Height="100" Stroke="LightGreen" StrokeThickness="5" Width="100" Margin="450,74,-200,126" Visibility="Hidden" Name="icecreamrec">
-
+        <Rectangle Height="100" Stroke="LightGreen" StrokeThickness="5" Width="100" Margin="450,74,-200,126" Visibility="Visible" Name="icecreamrec">
         </Rectangle>
-        <Rectangle Height="100" Stroke="LightBlue" StrokeThickness="5" Width="100" Margin="240,217,10,-17" Visibility="Hidden" Name="stockcactusrec">
-
+        <Rectangle Height="100" Stroke="LightBlue" StrokeThickness="5" Width="100" Margin="240,217,10,-17" Visibility="Visible" Name="stockcactusrec">
         </Rectangle>
-        <Rectangle Height="100" Stroke="LightSlateGray" StrokeThickness="5" Width="100" Margin="450,217,-200,-17" Visibility="Hidden" Name="paintingcactusrec">
-
+        <Rectangle Height="100" Stroke="LightSlateGray" StrokeThickness="5" Width="100" Margin="450,217,-200,-17" Visibility="Visible" Name="paintingcactusrec">
         </Rectangle>
+        
         <ProgressBar Minimum="0" Maximum="6" Margin="-197,312,270,-48" Name="cactusprogress"/>
     </Grid>
 </Window>

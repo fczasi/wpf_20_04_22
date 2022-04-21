@@ -25,11 +25,13 @@ namespace wpf_20_04_22
         private void thecactuscheck_checked(object sender, RoutedEventArgs e) 
         {
             thecactusrec.Visibility = Visibility.Visible;
+            thecactussli.Visibility = Visibility.Visible;
             cactusprogress.Value++;
         }
         private void thecactuscheck_unchecked(object sender, RoutedEventArgs e)
         {
-            thecactusrec.Visibility = Visibility.Hidden; 
+            thecactusrec.Visibility = Visibility.Hidden;
+            thecactussli.Visibility = Visibility.Hidden;
             cactusprogress.Value--;
         }
         private void bestcactuscheck_checked(object sender, RoutedEventArgs e)
